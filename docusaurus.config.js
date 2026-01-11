@@ -118,6 +118,10 @@ const config = {
               {
                 label: 'JavaScript Docs',
                 to: 'docs/category/javascript'
+              },
+              {
+                label: 'GitHub Docs',
+                to: 'docs/category/github'
               }
             ]
           },

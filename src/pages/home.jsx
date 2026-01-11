@@ -1,58 +1,61 @@
-import {links, pages} from '../../static/js/links'
-import { Link } from 'react-router-dom';
-import { FaAngleDoubleDown, FaEnvelope } from 'react-icons/fa';
-import styles from './home.module.scss';
-import logo from '../../static/images/wolf-logo_D5.png';
+// import React from 'react';
+// import Layout from '@theme/Layout';
 
-const Homepage = () => {
-  
-  const scroll = () => {
-    pages.current.scrollIntoView({ behavior: "smooth" });
-  }
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import Heading from '@theme/Heading';
+import styles from './index.module.css';
+// export default function Home() {
+//   return (
+//     <Layout title="Home" description="Description of your site">
+//       <header className="hero">
+//         <div className="container">
+//           <h1 className="hero__title">Wolf codes</h1>
+//           <p className="hero__subtitle">Turning complexity into clarity.</p>
+//         </div>
+//       </header>
+//     </Layout>
+//   );
+// }
+
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
-      <div className={styles.homepage}>
-        <div id={styles.greeting}>
-          <div id={styles.mainlogo}>
-            <img id={styles.logo} src={logo} alt="Logo" />
-            <div className={styles.title}>
-              <h1>Wolf codes</h1>
-              <h3>Turning <br/> Complexity <br/> into <br/> Clarity.</h3>
-            </div>
-          </div>
-          <FaAngleDoubleDown id={styles.more} onClick={scroll} /> 
-        </div>
-
-        <div id={styles.empty}></div>
-
-        <div id={styles.pages} ref={pages}>
-          {pages.map((page, i) => (
-            <a className={styles.page} id={page.name} href={page.url} key={i}>
-              <img className={styles.linkLogo} src={page.logo} alt={page.name} />
-              <h3 className={[styles.description, styles.typewriter]}>{page.text}</h3>
-            </a>
-          ))}
-        </div>
-        <div id={styles.icons}>
-          {links.map(link => (
-            <a href={link.location}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={link.name}
-            >
-            <div className={styles.icon}>
-              {link.icon}
-            </div>
-            </a>
-          ))}
-          <Link to="/contact">
-          <div className={styles.icon}>
-            <FaEnvelope  />
-          </div>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <Heading as="h1" className="hero__title">
+          {siteConfig.title}
+        </Heading>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
-  )
+    </header>
+  );
 }
 
-export default Homepage;
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <>
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Turning complexity into clarity<head />">
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+    </>
+  );
+}

@@ -18,7 +18,7 @@ export const pages = [
 ];
 
 export const links = [
-  { name: 'dev.to', location: 'https://dev.to/wolfmath', icon: <FaDev /> },
+  // { name: 'dev.to', location: 'https://dev.to/wolfmath', icon: <FaDev /> },
   {
     name: 'linkedin',
     location: 'https://www.linkedin.com/in/wolf-math/',
