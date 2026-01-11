@@ -32,16 +32,6 @@ const FeatureList = [
         Wolf Codes.
       </>
     )
-  },
-  {
-    title: 'Contact',
-    Svg: require('@site/static/images/logo_pixel_large.png').default,
-    description: (
-      <>
-        Get in touch for collaboration, questions, or just to say hello.
-        Let&apos;s connect and build something together.
-      </>
-    )
   }
 ];
 
