@@ -155,7 +155,6 @@ const config = {
         darkTheme: prismThemes.dracula
       },
       algolia: {
-        container: '#docsearch',
         // The application ID provided by Algolia
         appId: 'INR2K2L48F',
 
