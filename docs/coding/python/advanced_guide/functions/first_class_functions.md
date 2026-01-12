@@ -1,6 +1,6 @@
 ---
 title: First class functions
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # First-Class Functions (Deep Dive):

@@ -1,6 +1,6 @@
 ---
 title: Lambdas
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Lambdas: Power and Limits

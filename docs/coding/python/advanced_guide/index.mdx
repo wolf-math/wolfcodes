@@ -9,72 +9,78 @@ import styles from './hub.module.css';
 
 Welcome to the Python Advanced Guide. This guide provides comprehensive documentation for learning Python programming, from the basics to advanced concepts.
 
-## How Python Actually Works
+## How Python actually executes your code
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./processing_code">
+  <Link className={styles.card} to="./execution/processing_code">
     How Python processes your code
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./names_binding_scope">
+  <Link className={styles.card} to="./execution/processing_code">
+    How Python processes your code
+  </Link>
+</div>
+
+<div className={styles.grid}>
+  <Link className={styles.card} to="./execution/names_binding_scope">
     Names, binding, and scope (not variables)
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./mutability">
+  <Link className={styles.card} to="./execution/mutability">
     Mutability, Identity, and Object Semantics
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./callstack">
+  <Link className={styles.card} to="./execution/callstack">
     Call stack, frames, and execution
   </Link>
 </div>
 
 
 
-## Functions Are More Powerful Than You Think
+## Functions are more powerful than you think
 
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./first_class_functions">
+  <Link className={styles.card} to="./functions/first_class_functions">
     First-class functions
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./decorators">
+  <Link className={styles.card} to="./functions/decorators">
     Decorators: What they _actually_ are
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./lambdas">
+  <Link className={styles.card} to="./functions/lambdas">
     Lamdas: Power and limits
   </Link>
 </div>
 
 
-## Iteration, Generators, and Laziness
+## Iteration, generators, and laziness
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./iteration_protocol">
+  <Link className={styles.card} to="./iteration/iteration_protocol">
     Iteration protocol
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./generators">
+  <Link className={styles.card} to="./iteration/generators">
     Generators: Under the hood
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./context_managers">
+  <Link className={styles.card} to="./iteration/context_managers">
     Context managers
   </Link>
 </div>
@@ -82,20 +88,20 @@ Welcome to the Python Advanced Guide. This guide provides comprehensive document
 ## Object model & OOP
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./object_model">
+  <Link className={styles.card} to="./OOP/object_model">
     Object model
   </Link>
 </div>
 
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./method_resolution_order">
+  <Link className={styles.card} to="./OOP/method_resolution_order">
     Method resolution order
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./descriptors">
+  <Link className={styles.card} to="./OOP/descriptors">
     Descriptors
   </Link>
 </div>
@@ -103,27 +109,27 @@ Welcome to the Python Advanced Guide. This guide provides comprehensive document
 ## Types, annotations, and static thinking
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./type_hints">
+  <Link className={styles.card} to="./types/type_hints">
     Type hints are not types
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./typing">
+  <Link className={styles.card} to="./types/typing">
     `typing` Deep dive
   </Link>
 </div>
 
-## Concurrency and Parallelism
+## Concurrency and parallelism
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./gil">
+  <Link className={styles.card} to="./async_programming/gil">
     The GIL explained
   </Link>
 </div>
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./async">
+  <Link className={styles.card} to="./async_programming/async">
     Async under the hood
   </Link>
 </div>
@@ -131,15 +137,15 @@ Welcome to the Python Advanced Guide. This guide provides comprehensive document
 ## Exceptions, errors, and control flow
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./exceptions">
+  <Link className={styles.card} to="./exceptions_controlflow/exceptions">
     Exceptions are control flow
   </Link>
 </div>
 
-## Metaprogramming
+{/* ## Metaprogramming
 
 <div className={styles.grid}>
-  <Link className={styles.card} to="./metaprogramming">
+  <Link className={styles.card} to="./metaprogramming/metaprogramming">
     Metaprogramming: The how and why
   </Link>
-</div>
+</div> */}
