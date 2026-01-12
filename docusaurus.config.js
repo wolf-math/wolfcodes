@@ -155,14 +155,15 @@ const config = {
         darkTheme: prismThemes.dracula
       },
       algolia: {
+        container: '#docsearch',
         // The application ID provided by Algolia
-        appId: 'ZYJYPTZ1YL',
+        appId: 'INR2K2L48F',
 
         // Public API key: it is safe to commit it
-        apiKey: '13d59f9e96bc302c5acde2c81e5b1ed7',
+        apiKey: 'cce1a52b1c6f94fa88eb56804ef29f31',
 
         // Index name - update this after applying for DocSearch and receiving your index name
-        indexName: 'Documentation website',
+        indexName: 'WolfCodes',
 
         // Contextual search ensures results are relevant to current language and version
         contextualSearch: true
