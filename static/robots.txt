@@ -11,4 +11,4 @@ Allow: /
 Sitemap: https://aaronwolf.dev/sitemap.xml
 LLMs: https://yourdomain.com/llms.txt
 
-# Algolia-Crawler-Verif: 72493A21B0A6DED7
+# Algolia-Crawler-Verif: D2A19C3D0384EB6C
