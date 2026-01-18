@@ -1,8 +1,15 @@
 ---
 title: function
 sidebar_position: 22
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Properties
 
 ```python

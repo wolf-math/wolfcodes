@@ -1,8 +1,15 @@
 ---
 title: Decorators
 sidebar_position: 2
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This guide covers advanced decorator concepts and patterns. For fundamental decorator concepts, see the [user guide on decorators](../../user_guide/functions/decorators.md).
 
 ## Execution timing: definition time vs call time

@@ -1,8 +1,15 @@
 ---
 title: Tuples
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Tuples are immutable sequences of items, similar to lists but with one key difference: once created, tuples cannot be modified. This immutability makes them perfect for fixed data, returning multiple values from functions, and using as dictionary keys.
 
 ## What are tuples?

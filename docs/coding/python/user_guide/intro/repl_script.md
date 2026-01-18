@@ -1,8 +1,15 @@
 ---
 title: The REPL vs script
 sidebar_position: 4
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Python can run code in two different ways: **interactively** (REPL) or as a **script**. Understanding the difference prevents confusion.
 
 ### REPL (Interactive Mode)

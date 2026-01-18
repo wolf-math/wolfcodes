@@ -1,8 +1,15 @@
 ---
 title: First class functions
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This guide explores what "first-class functions" actually means in Python and how they work under the hood. For practical examples of using functions as arguments and return values, see the [user guide on higher-order functions](../../user_guide/functions/higher_order_functions.md).
 
 Python learners use this before they understand it. You've passed functions to `map()`, stored functions in variables, and used decorators, but you may not have thought deeply about what's actually happening. This guide explores the mechanics behind these patterns.

@@ -3,6 +3,14 @@ slug: encryption3
 title: "Encryption Part 3: RSA"
 authors: wolf
 tags: [encryption, python]
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
 ## RSA Encryption overview
 

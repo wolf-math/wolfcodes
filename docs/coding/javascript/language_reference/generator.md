@@ -1,8 +1,15 @@
 ---
 title: generator
 sidebar_position: 22
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 A generator is a special type of function that can be paused and resumed. Generators are created using the `function*` syntax and use the `yield` keyword to produce values.

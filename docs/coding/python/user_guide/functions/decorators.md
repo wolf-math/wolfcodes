@@ -1,8 +1,15 @@
 ---
 title: Decorators
 sidebar_position: 4
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are decorators?
 
 A **decorator** is a function that wraps another function to add or modify behavior *without* changing the wrapped function’s code. In Python syntax, decorators are written with the `@decorator_name` line above a function definition.

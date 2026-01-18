@@ -1,8 +1,15 @@
 ---
 title: Parameters
 sidebar_position: 2
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are `*args` and `**kwargs`?
 
 `*args` and `**kwargs` are special syntax in Python that allow functions to accept a variable number of arguments. The `*args` collects extra positional arguments into a tuple, while `**kwargs` collects extra keyword arguments into a dictionary. The names `args` and `kwargs` are just conventions, so you can use any names you want, but the `*` and `**` operators are what make them work.

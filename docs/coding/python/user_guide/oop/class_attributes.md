@@ -1,8 +1,15 @@
 ---
 title: Class attributes
 sidebar_position: 2
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are class attributes?
 
 A **class attribute** is a variable that belongs to the **class itself**, not to any particular instance. All instances of the class share the same class attribute value (unless an instance shadows it with its own attribute of the same name).

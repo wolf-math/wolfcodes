@@ -1,8 +1,15 @@
 ---
 title: What is the command line?
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Mental model
 
 The command line is a text-based way to talk to your computer.

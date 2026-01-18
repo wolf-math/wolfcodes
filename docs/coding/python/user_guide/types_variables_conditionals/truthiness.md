@@ -1,8 +1,15 @@
 ---
 title: Truthiness
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is truthiness?
 
 **Truthiness** is Python's way of treating any value as either "truthy" (like `True`) or "falsy" (like `False`). 

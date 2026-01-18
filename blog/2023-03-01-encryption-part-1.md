@@ -3,6 +3,14 @@ slug: encryption1
 title: "Encryption Part 1: Overview"
 authors: wolf
 tags: [encryption, python]
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
 ## Intro
 

@@ -1,8 +1,15 @@
 ---
 title: Lambda functions
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are lambda functions?
 
 **Lambda functions** (also called anonymous functions) are small, unnamed functions that can be defined in a single line. They're created using the `lambda` keyword and are perfect for simple operations that don't need a full function definition. Unlike regular functions defined with `def`, lambda functions don't have a name and are typically used for short, one-off operations.

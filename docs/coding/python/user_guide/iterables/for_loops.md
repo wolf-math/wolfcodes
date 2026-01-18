@@ -1,8 +1,15 @@
 ---
 title: For loops
 sidebar_position: 5
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 For loops let you repeat code for each item in a sequence or iterable. They're one of the most powerful features in Python, allowing you to process collections of data efficiently. You've already seen sequences like [lists](./lists), [tuples](./tuples), strings, [sets](./sets), and [ranges](./ranges). Use `for loops` to work with all of them.
 
 ## What are for loops?

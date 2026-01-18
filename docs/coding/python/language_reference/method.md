@@ -1,8 +1,15 @@
 ---
 title: method
 sidebar_position: 23
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 A **method** is a function bound to an object. Accessing `obj.method` produces a bound method that remembers `obj` as its first argument. Methods can be inspected for their underlying function and the bound instance.

@@ -1,8 +1,15 @@
 ---
 title: undefined
 sidebar_position: 8
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 `undefined` is a primitive value that indicates a variable has been declared but not assigned a value, or a property doesn't exist on an object. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.

@@ -1,8 +1,15 @@
 ---
 title: Encapsulation
 sidebar_position: 5
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is encapsulation?
 
 **Encapsulation** is the OOP idea that an object should:

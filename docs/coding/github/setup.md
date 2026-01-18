@@ -1,7 +1,14 @@
 ---
 title: Setting up GitHub
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This guide requires using the **terminal** (also called command line or shell). All commands shown here should be run in your terminal application.
 
 ## Why use Git and GitHub?

@@ -1,8 +1,15 @@
 ---
 title: Exception handling
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is exception handling?
 
 **Exception handling** is how Python programs deal with errors gracefully. Instead of crashing when something goes wrong, you can catch exceptions, handle them, and continue running. The `try` and `except` keywords let you write code that anticipates and responds to errors.

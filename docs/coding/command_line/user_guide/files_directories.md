@@ -1,8 +1,15 @@
 ---
 title: Files and Directories
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This section covers the core concepts and commands for working with files and directories in the command line. Understanding these concepts is essential, as they're the foundation for everything else you'll do.
 
 ## Concepts

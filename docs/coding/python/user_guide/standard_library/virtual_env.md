@@ -1,8 +1,15 @@
 ---
 title: Virtual environments
 sidebar_position: 5
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is a virtual environment?
 
 A **virtual environment** is an isolated Python environment that allows you to install packages separately from your system Python installation. Each virtual environment has its own Python interpreter and its own set of installed packages, completely separate from other projects and your system Python.

@@ -1,8 +1,15 @@
 ---
 title: Comprehensions
 sidebar_position: 9
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Comprehensions provide a concise, readable way to create lists, dictionaries, and sets by transforming or filtering data. They're a Pythonic alternative to loops when you're building collections, making your code more compact and often faster.
 
 ## What are comprehensions?

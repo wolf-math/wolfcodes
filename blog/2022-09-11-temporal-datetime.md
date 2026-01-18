@@ -3,8 +3,15 @@ slug: temporal-datetime
 title: "Temporal Date API"
 authors: wolf
 tags: [javascript]
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 We all know that dates in JavaScript suck. Temporal is the API that we will come to succeed the legacy date API in JavaScript. This post is about my experience with the new [Temporal API](https://tc39.es/proposal-temporal/). 
 
 At the moment (no pun intended), Temporal is still in stage 3 (out of 4) of development. This means that it should not be used in development, but if you're curious on how to use it you can still use the [Temporal polyfill](https://www.npmjs.com/package/@js-temporal/polyfill).

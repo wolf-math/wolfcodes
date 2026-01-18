@@ -1,8 +1,15 @@
 ---
 title: Names, binding, and scope
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Python doesn't have variables. It has **names** that are **bound** to **objects**. This distinction matters.
 
 ## Names are not variables

@@ -1,9 +1,15 @@
 ---
 title: Types
 sidebar_position: 1
-
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is a type?
 
 A **type** describes what a value is and which operations make sense for it. For example, you can add two numbers together, but you can't add a number to a word.

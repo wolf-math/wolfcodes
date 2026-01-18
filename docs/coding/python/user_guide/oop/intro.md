@@ -1,8 +1,15 @@
 ---
 title: OOP introduction
 sidebar_position: 0
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is Object-Oriented Programming?
 
 **Object-Oriented Programming (OOP)** is a way of organizing code around **objects** instead of just functions and data. An object bundles together:

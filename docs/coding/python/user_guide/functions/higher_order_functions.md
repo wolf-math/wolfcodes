@@ -1,8 +1,15 @@
 ---
 title: Higher-order functions
 sidebar_position: 4
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are higher-order functions?
 
 A **higher-order function** is a function that does **at least one** of the following:

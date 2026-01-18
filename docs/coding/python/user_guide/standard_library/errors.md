@@ -1,8 +1,15 @@
 ---
 title: Errors and exceptions
 sidebar_position: 0.5
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are errors and exceptions?
 
 **Errors** (also called **exceptions**) are Python's way of signaling that something went wrong during program execution. When Python encounters a problem it can't handle, it **raises** an exception, which stops normal execution and can crash your program if not handled.

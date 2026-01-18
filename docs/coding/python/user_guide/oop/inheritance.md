@@ -1,8 +1,15 @@
 ---
 title: Inheritance
 sidebar_position: 4
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is inheritance?
 
 **Inheritance** is an OOP feature that lets you create a **new class** that reuses and extends an **existing class**.

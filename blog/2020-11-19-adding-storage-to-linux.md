@@ -3,8 +3,15 @@ slug: adding-stoarge-linux
 title: "Adding storage to Linux"
 authors: wolf
 tags: [linux, ubuntu]
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Maybe you have a home server that you'd like to have some more storage space on. Maybe you have a desktop or laptop that needs more storage. In this tutorial I will show you how to add an HDD or SDD (or even a flash drive) to a Linux computer. 
 
 <!-- truncate -->

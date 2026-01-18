@@ -1,8 +1,15 @@
 ---
 title: Getting Started
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Welcome to Python!
 
 Python is a powerful, beginner-friendly programming language used for everything from web development to data science, automation, and artificial intelligence. It's known for its clean, readable syntax that reads almost like English, making it an excellent choice for your first programming language.
