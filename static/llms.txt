@@ -55,6 +55,26 @@ Topics include:
 - Iterators and generators
 - Modern JavaScript APIs
 
+#### Command Line
+- User Guide: https://wolfcodes.dev/docs/category/command-line
+
+Topics include:
+- What is the command line
+- Terminal vs. shell distinction
+- File and directory navigation
+- Core commands (pwd, ls, cd)
+- Understanding paths and flags
+
+#### GitHub
+- Setup Guide: https://wolfcodes.dev/docs/category/github
+
+Topics include:
+- Creating a GitHub account
+- Installing GitHub CLI (gh)
+- Configuring authentication with SSH
+- Repository creation and management
+- Git workflow basics
+
 ### Blog
 Technical articles covering:
 - Python and JavaScript internals

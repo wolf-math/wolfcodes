@@ -55,7 +55,7 @@
   justify-content: center;
 
   #greeting {
-    height: 85vh;
+    padding-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,10 +72,6 @@
         height: auto;
         filter: drop-shadow(3px 3px 10px rgba(37, 194, 160));
         padding: 15px;
-
-        // &:hover {
-        //   animation: spinning 1s forwards;
-        // }
       }
 
       .title {
@@ -94,21 +90,75 @@
         }
       }
     }
-
-    #more {
-      justify-content: center;
-      font-size: 72px;
-
-      &:hover {
-        animation: shake 0.5s;
-        cursor: pointer;
-        color: rgba(37, 194, 160);
-      }
-    }
   }
 
   #empty {
-    height: 35vh;
+    height: 10vh;
+  }
+
+  .searchButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px 48px;
+    margin: 8vh 0;
+    background: rgba(35, 40, 45, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background: rgba(45, 50, 55, 0.95);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: scale(1.02);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    .searchIcon {
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .searchText {
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .typingText {
+      color: rgba(37, 194, 160);
+      font-weight: 500;
+      min-width: 1ch;
+    }
+
+    .cursor {
+      display: inline-block;
+      margin-left: 2px;
+      animation: blink 1s infinite;
+      color: rgba(37, 194, 160);
+    }
+  }
+
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    51%, 100% {
+      opacity: 0;
+    }
   }
 
   #pages {
@@ -150,7 +200,7 @@
   }
 
   #icons {
-    padding-bottom: 10vh;
+    // padding-bottom: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -232,6 +282,17 @@
       #more {
         font-size: 2.5rem;
         margin-top: 1em;
+      }
+    }
+
+    .searchButton {
+      padding: 20px 40px;
+      font-size: 28px;
+      margin: 3vh 0;
+      gap: 12px;
+
+      .searchIcon {
+        font-size: 28px;
       }
     }
 
