@@ -3,6 +3,11 @@ slug: encryption2
 title: "Encryption Part 2: Diffie-Hellman"
 authors: [wolf]
 tags: [encryption, python]
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
 ## History
 

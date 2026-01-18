@@ -1,8 +1,15 @@
 ---
 title: Dictionaries
 sidebar_position: 7
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Dictionaries (dicts) are key-value stores that let you organize data by meaningful labels rather than numeric positions. Unlike [lists](./lists) and [tuples](./tuples) that use indexes, dictionaries use keys to access values, making them perfect for representing structured data like user information, configuration settings, or any data where names matter more than position.
 
 ## What are dictionaries?

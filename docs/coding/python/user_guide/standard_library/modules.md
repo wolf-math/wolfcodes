@@ -1,8 +1,15 @@
 ---
 title: Modules
 sidebar_position: 0
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are modules?
 
 A **module** is a file containing Python code that can be imported and used in other Python programs. Think of modules as reusable libraries of code that let you organize your code into separate files, reuse functionality across projects, and tap into Python's vast standard library and third-party packages.

@@ -1,8 +1,15 @@
 ---
 title: async/await
 sidebar_position: 21
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 `async` and `await` are keywords that provide syntactic sugar for working with Promises. They make asynchronous code look and behave more like synchronous code.

@@ -1,8 +1,15 @@
 ---
 title: Object lifetime
 sidebar_position: 0.5
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This section explains when Python objects are created, how long they live, and why they eventually disappear. Understanding this clarifies `del`, `__del__`, context managers, and many "memory leak" misconceptions.
 
 ## The core mental model (read this first)

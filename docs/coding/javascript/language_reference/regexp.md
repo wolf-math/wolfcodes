@@ -1,8 +1,15 @@
 ---
 title: RegExp
 sidebar_position: 13
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 A `RegExp` (regular expression) is a pattern used to match character combinations in strings. Regular expressions are powerful tools for pattern matching and text manipulation.

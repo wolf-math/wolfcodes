@@ -1,8 +1,15 @@
 ---
 title: WeakSet
 sidebar_position: 17
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 A `WeakSet` is a collection of unique objects. Like WeakMap, WeakSet allows garbage collection of its elements when they are no longer referenced elsewhere. WeakSets are useful for tracking object membership without preventing garbage collection.

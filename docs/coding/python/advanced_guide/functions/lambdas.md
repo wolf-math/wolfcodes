@@ -1,8 +1,15 @@
 ---
 title: Lambdas
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This guide explores the deeper design decisions behind lambda functions and when they help or hurt your code. For basic lambda syntax and common use cases, see the [user guide on lambda functions](../../user_guide/functions/lambda.md).
 
 ## Why lambdas are expressions, not statements

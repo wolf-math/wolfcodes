@@ -1,8 +1,15 @@
 ---
 title: Mutability, Identity, and Object Semantics
 sidebar_position: 1.5
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This guide explains how Python compares objects, what makes objects the "same," and how copying works. 
 
 ## `==` vs `is`: equality vs identity

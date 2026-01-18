@@ -1,8 +1,15 @@
 ---
 title: Dunder methods
 sidebar_position: 7
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are dunder methods?
 
 **Dunder methods** (short for *double underscore*) are special methods whose names start and end with `__`, like `__init__`, `__str__`, or `__len__`.  

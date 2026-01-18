@@ -1,8 +1,15 @@
 ---
 title: built-in functions
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 Built-in functions are Python functions that exist in the global namespace. They are available everywhere in your code without needing to import. Some of these functions are not tied to a specific type, such as the `len()` function that can get the length of a list or a string.

@@ -1,8 +1,15 @@
 ---
 title: File handling basics
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is file handling?
 
 **File handling** is how Python reads from and writes to files on your computer. It lets your programs:

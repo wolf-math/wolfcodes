@@ -1,8 +1,15 @@
 ---
 title: Sets
 sidebar_position: 8
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Sets are unordered collections of unique elements. Unlike lists and tuples, sets don't allow duplicates and don't maintain item order. They're perfect for tasks like removing duplicates, testing membership efficiently, and performing mathematical set operations.
 
 ## What are sets?

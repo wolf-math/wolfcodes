@@ -2,8 +2,12 @@
 title: Critical Thinking
 authors: wolf
 tags: ['teaching']
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Well here I am, still waiting for my computer lab pieces to come in. I’ve been having meetings with a lot of different people who are all giving me really great ideas on how to create this custom class exactly the way I want, but alas, here I am still teaching pencil to paper.
 
 <!-- truncate -->

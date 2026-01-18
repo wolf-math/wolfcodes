@@ -1,8 +1,15 @@
 ---
 title: Conditionals
 sidebar_position: 4
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are conditionals?
 
 **Conditionals** are statements that let your program make decisions based on values and conditions. Python uses `if`, `elif`, and `else` to control which code runs, allowing your program to respond differently to different situations.

@@ -1,8 +1,15 @@
 ---
 title: "null"
 sidebar_position: 7
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 `null` is a primitive value that represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.

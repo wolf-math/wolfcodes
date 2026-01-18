@@ -1,8 +1,15 @@
 ---
 title: Sequences
 sidebar_position: 1
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Sequences are a fundamental concept in Python. They represent ordered collections of items that you can access by position. This guide introduces the concept of sequences and sets the foundation for understanding lists, tuples, ranges, and other ordered data structures covered in this section.
 
 ## What are sequences?

@@ -3,8 +3,12 @@ slug: encryption4
 title: "Encryption Part 4: Hashes"
 authors: wolf
 tags: [encryption, python]
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This is the final section of my series on encryption... at least for now. Maybe I'll think of some other topics to cover.
 
 You can clone my [encryption demo repo](https://github.com/wolf-math/encryption-demo) and run the code from this article on your own machine.

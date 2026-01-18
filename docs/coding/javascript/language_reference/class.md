@@ -1,8 +1,15 @@
 ---
 title: class
 sidebar_position: 20
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 The `class` keyword is used to declare a class in JavaScript. Classes are syntactic sugar over JavaScript's existing prototype-based inheritance, providing a cleaner way to create objects and handle inheritance.

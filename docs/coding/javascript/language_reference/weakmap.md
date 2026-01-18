@@ -1,8 +1,15 @@
 ---
 title: WeakMap
 sidebar_position: 16
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 A `WeakMap` is a collection of key-value pairs where keys must be objects. WeakMaps allow garbage collection of keys when they are no longer referenced elsewhere, making them useful for storing private data or metadata about objects.

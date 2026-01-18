@@ -3,8 +3,12 @@ slug: promises-fetch
 title: "Promises and fetch"
 authors: wolf
 tags: [javascript]
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Restaurants
 A promise in JavaScript is just a **pending task**. It’s like ordering food at a restaurant: when you place your order, the server makes a _promise_ to bring the food you ordered. Once the food is brought to the table the promise has been fulfilled. If the food you ordered can’t be served because the kitchen is out of a key ingredient, then you can _catch_ a meal somewhere else. 
 

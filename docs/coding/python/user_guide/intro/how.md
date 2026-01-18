@@ -1,8 +1,15 @@
 ---
 title: How Python runs code
 sidebar_position: 2
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Understanding how Python executes your code is crucial for learning Python effectively. Let's build a mental model of what happens when Python runs your program.
 
 ### Top to bottom execution

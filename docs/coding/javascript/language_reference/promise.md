@@ -1,8 +1,15 @@
 ---
 title: Promise
 sidebar_position: 18
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Definition
 
 A `Promise` is an object representing the eventual completion or failure of an asynchronous operation. Promises provide a cleaner way to handle asynchronous code compared to callbacks.

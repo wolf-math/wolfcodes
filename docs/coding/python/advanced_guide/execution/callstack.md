@@ -1,8 +1,15 @@
 ---
 title: Call stack and execution
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 This guide explains how Python executes function calls, what happens when you call a function, and how the call stack manages execution. Understanding this helps you debug code, understand recursion, and see why certain patterns work the way they do.
 
 ## The call stack

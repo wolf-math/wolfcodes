@@ -1,8 +1,15 @@
 ---
 title: How Python processes your code
 sidebar_position: 0
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 Python processes your code in two phases: **compilation** and **execution**. Understanding this split explains everything.
 
 ![python process](./process.png)

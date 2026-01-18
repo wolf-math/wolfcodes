@@ -1,8 +1,15 @@
 ---
 title: Working with dates and times
 sidebar_position: 2
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is the datetime module?
 
 The `datetime` module provides classes for working with dates and times in Python. It's part of the standard library and gives you everything you need to create, manipulate, format, and calculate with dates and times.

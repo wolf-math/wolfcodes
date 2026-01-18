@@ -1,8 +1,15 @@
 ---
 title: The Shell
 sidebar_position: 2
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## Terminal vs. Shell: A crucial distinction
 
 When you open a command line interface, you're actually using **two different things**:

@@ -1,8 +1,15 @@
 ---
 title: Class methods, static methods, and properties
 sidebar_position: 3
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What are these decorators?
 
 Python provides three important decorators for methods and attributes:

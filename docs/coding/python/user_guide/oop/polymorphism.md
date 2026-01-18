@@ -1,8 +1,15 @@
 ---
 title: Polymorphism
 sidebar_position: 6
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is polymorphism?
 
 **Polymorphism** (from Greek: "many forms") is the ability to use the **same interface** for different types of objects. In Python, this means you can write code that works with multiple types as long as they implement the same methods or properties.

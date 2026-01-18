@@ -1,8 +1,15 @@
 ---
 title: Reading and writing JSON
 sidebar_position: 4
+author:
+  name: Aaron Wolf
+  url: https://wolfcodes.dev
+license:
+  type: CC BY-NC 4.0
+  attribution_required: true
+source:
+  canonical_url: https://wolfcodes.dev
 ---
-
 ## What is JSON?
 
 **JSON** (JavaScript Object Notation) is a lightweight text format for storing and exchanging data. It’s:
