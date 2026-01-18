@@ -15,14 +15,14 @@ export default function Home() {
   const topics = [
     'Python',
     'JavaScript',
-    'Object-oriented programming',
-    'Async/await',
+    'OOP',
+    'Async await',
     'Decorators',
-    'React',
+    // 'React',
     'Functions',
     'Generators',
     'Context managers',
-    'Type hints'
+    // 'Type hints'
   ];
   
   const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
