@@ -84,15 +84,16 @@ const config = {
           src: 'images/wolf-logo_D5.png'
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs'
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Docs'
+          // },
+          { to: '/docs/category/python', label: 'Python', position: 'left' },
+          { to: '/docs/category/javascript', label: 'JavaScript', position: 'left' },
+          { to: '/docs/category/github', label: 'GitHub', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/about', label: 'About', position: 'left' },
-          { to: '/contact', label: 'Contact', position: 'left' },
           {
             href: 'https://github.com/wolf-math',
             label: 'GitHub',
@@ -129,12 +130,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Dev.to',
-                href: 'https://dev.to/wolfmath'
+                label: 'Contact',
+                to: '/contact'
               },
               {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/in/wolf-math'
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/wolf-math'
               }
             ]
           },
@@ -146,9 +151,10 @@ const config = {
                 to: '/blog'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/wolf-math'
-              }
+                label: 'About',
+                to: '/about'
+              },
+
             ]
           }
         ],
