@@ -3,9 +3,6 @@ slug: encryption2
 title: "Encryption Part 2: Diffie-Hellman"
 authors: [wolf]
 tags: [encryption, python]
-author:
-  name: Aaron Wolf
-  url: https://wolfcodes.dev
 license:
   type: CC BY-NC 4.0
   attribution_required: true

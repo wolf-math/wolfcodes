@@ -3,9 +3,6 @@ slug: promises-fetch
 title: "Promises and fetch"
 authors: wolf
 tags: [javascript]
-author:
-  name: Aaron Wolf
-  url: https://wolfcodes.dev
 license:
   type: CC BY-NC 4.0
   attribution_required: true
