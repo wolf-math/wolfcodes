@@ -92,6 +92,7 @@ const config = {
           // },
           { to: '/docs/category/python', label: 'Python', position: 'left' },
           { to: '/docs/category/javascript', label: 'JavaScript', position: 'left' },
+          { to: '/docs/category/command-line', label: 'Command Line', position: 'left' },
           { to: '/docs/category/github', label: 'GitHub', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -121,6 +122,10 @@ const config = {
                 to: 'docs/category/javascript'
               },
               {
+                label: 'Command Line Docs',
+                to: '/docs/category/command-line'
+              },
+              {
                 label: 'GitHub Docs',
                 to: 'docs/category/github'
               }
@@ -146,6 +151,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'All docs',
+                to: '/docs/category/coding-docs'
+              },
               {
                 label: 'Blog',
                 to: '/blog'
