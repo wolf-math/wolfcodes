@@ -9,7 +9,7 @@ Python learners use this before they understand it. You've passed functions to `
 
 ## Functions as objects
 
-In Python, functions are objects. This isn't just a metaphor or convenient abstraction—functions are literally instances of a class, just like strings, lists, and dictionaries.
+In Python, functions are objects. This isn't just a metaphor or convenient abstraction. Functions are literally instances of a class, just like strings, lists, and dictionaries.
 
 ### What this means
 

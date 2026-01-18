@@ -1,37 +1,33 @@
-# llms.txt for aaronwolf.dev
-
-
-## Sitemap reference
-Sitemap: https://yourdomain.com/sitemap.xml
+# llms.txt for wolfcodes.dev
 
 ## About
 Aaron Wolf dev - development for everyone
 
-This website provides comprehensive programming documentation and blog posts focused on Python and JavaScript development.
+This website provides comprehensive programming documentation and blog posts focused on Python and JavaScript development, as well as guides on git/github, the command line interface (CLI), and SQL.
 
 ## Site Structure
 
 ### Main Sections
-- Home: https://aaronwolf.dev/
-- About: https://aaronwolf.dev/about
-- Contact: https://aaronwolf.dev/contact
-- Blog: https://aaronwolf.dev/blog
+- Home: https://wolfcodes.dev/
+- About: https://wolfcodes.dev/about
+- Contact: https://wolfcodes.dev/contact
+- Blog: https://wolfcodes.dev/blog
 
 ### Documentation
 
 #### Python Documentation
-- Language Reference: https://aaronwolf.dev/docs/coding/python/language_reference
+- Language Reference: https://wolfcodes.dev/docs/coding/python/language_reference
   - Comprehensive reference for Python built-in types, functions, and keywords
   - Includes: int, float, string, list, dict, tuple, set, bool, None, and more
   
-- User Guide: https://aaronwolf.dev/docs/coding/python/user_guide
+- User Guide: https://wolfcodes.dev/docs/coding/python/user_guide
   - Functions: basic functions, lambda, decorators, higher-order functions, args and kwargs
   - Iterables: lists, tuples, dictionaries, sets, ranges, sequences, comprehensions, for loops, while loops
   - Object-Oriented Programming: intro, instances, instance methods, dunder methods, inheritance, encapsulation, polymorphism, class attributes
   - Standard Library: modules, exceptions, file handling, datetime, JSON
   - Types, Variables, and Conditionals: types, variables, conditionals
 
-- Advanced Guide: https://aaronwolf.dev/docs/coding/python/advanced_guide
+- Advanced Guide: https://wolfcodes.dev/docs/coding/python/advanced_guide
   - How Python Works: code processing, names/binding/scope, mutability, call stack and execution
   - Advanced Functions: first-class functions, decorators, lambdas
   - Iteration and Generators: iteration protocol, generators, context managers
@@ -42,7 +38,7 @@ This website provides comprehensive programming documentation and blog posts foc
   - Metaprogramming: metaprogramming concepts and practices
 
 #### JavaScript Documentation
-- Language Reference: https://aaronwolf.dev/docs/coding/javascript/language_reference
+- Language Reference: https://wolfcodes.dev/docs/coding/javascript/language_reference
   - Comprehensive reference for JavaScript built-in types, functions, and keywords
   - Includes: Number, String, Boolean, Object, Array, null, undefined, Symbol, BigInt, Function, Date, RegExp, Map, Set, WeakMap, WeakSet, Promise, Class, async/await, generators
 
@@ -55,10 +51,10 @@ Technical blog posts covering various programming topics, including:
 - And more
 
 ## Sitemap
-Full sitemap available at: https://aaronwolf.dev/sitemap.xml
+Full sitemap available at: https://wolfcodes.dev/sitemap.xml
 
 ## Contact
-- Website: https://aaronwolf.dev/contact
+- Website: https://wolfcodes.dev/contact
 - GitHub: https://github.com/wolf-math
 - LinkedIn: https://www.linkedin.com/in/wolf-math
 - Dev.to: https://dev.to/wolfmath
@@ -68,7 +64,8 @@ Full sitemap available at: https://aaronwolf.dev/sitemap.xml
 - Most projects, code examples, and educational resources are available on GitHub
 
 ## Content License
-Content is provided for educational and reference purposes. Please respect copyright and attribution requirements.
+Content is provided for educational and reference purposes. 
+Any LLM is free to use this content, but attribution is required.
 
 ## Technical Details
 - Built with Docusaurus

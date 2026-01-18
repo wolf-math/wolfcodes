@@ -1,0 +1,10 @@
+{
+  "label": "User Guide",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "The User Guide is a guide for using the Command Line. It is a comprehensive guide for using the Command Line."
+  }
+}
