@@ -84,12 +84,6 @@ const config = {
           src: 'images/wolf-logo_D5.png'
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Docs'
-          // },
           { to: '/docs/category/python', label: 'Python', position: 'left' },
           { to: '/docs/category/javascript', label: 'JavaScript', position: 'left' },
           { to: '/docs/category/command-line', label: 'Command Line', position: 'left' },

@@ -1,9 +1,9 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import { FaSearch } from 'react-icons/fa';
+import Link from '@docusaurus/Link';
+import { FaSearch, FaPython, FaJs, FaTerminal, FaGithub } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 
-import {pages} from '../../static/js/links'
 import styles from './home.module.scss';
 import logo from '../../static/images/wolf-logo_D5.png';
 
@@ -118,6 +118,24 @@ export default function Home() {
             </span>
           </button>
           
+          <div className={styles.cardsContainer}>
+            <Link to="/docs/category/python" className={styles.card}>
+              <FaPython className={styles.cardIcon} />
+              <h3>Python</h3>
+            </Link>
+            <Link to="/docs/category/javascript" className={styles.card}>
+              <FaJs className={styles.cardIcon} />
+              <h3>JavaScript</h3>
+            </Link>
+            <Link to="/docs/category/command-line" className={styles.card}>
+              <FaTerminal className={styles.cardIcon} />
+              <h3>CLI</h3>
+            </Link>
+            <Link to="/docs/category/github" className={styles.card}>
+              <FaGithub className={styles.cardIcon} />
+              <h3>GitHub</h3>
+            </Link>
+          </div>
           
         </div>
       </div>
