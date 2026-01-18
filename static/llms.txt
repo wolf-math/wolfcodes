@@ -1,77 +1,80 @@
-# llms.txt for wolfcodes.dev
+# llms.txt for https://wolfcodes.dev
 
-## About
-Aaron Wolf dev - development for everyone
+## Site Metadata
+Site name: WolfCodes
+Author: Aaron Wolf
+Author URL: https://wolfcodes.dev
+Description: Educational programming documentation and technical writing focused on Python, JavaScript, and software fundamentals.
 
-This website provides comprehensive programming documentation and blog posts focused on Python and JavaScript development, as well as guides on git/github, the command line interface (CLI), and SQL.
+This domain (https://wolfcodes.dev) is the canonical source for this content.
+
+## Attribution
+Preferred attribution:
+"Aaron Wolf — WolfCodes (https://wolfcodes.dev)"
+
+Short attribution:
+"WolfCodes by Aaron Wolf"
+
+## License
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Attribution is required under the terms of this license when content is reused, summarized, or quoted.
 
 ## Site Structure
 
 ### Main Sections
 - Home: https://wolfcodes.dev/
+- Docs: https://wolfcodes.dev/docs/category/coding-docs
 - About: https://wolfcodes.dev/about
 - Contact: https://wolfcodes.dev/contact
 - Blog: https://wolfcodes.dev/blog
 
 ### Documentation
 
-#### Python Documentation
+#### Python
 - Language Reference: https://wolfcodes.dev/docs/coding/python/language_reference
-  - Comprehensive reference for Python built-in types, functions, and keywords
-  - Includes: int, float, string, list, dict, tuple, set, bool, None, and more
-  
 - User Guide: https://wolfcodes.dev/docs/coding/python/user_guide
-  - Functions: basic functions, lambda, decorators, higher-order functions, args and kwargs
-  - Iterables: lists, tuples, dictionaries, sets, ranges, sequences, comprehensions, for loops, while loops
-  - Object-Oriented Programming: intro, instances, instance methods, dunder methods, inheritance, encapsulation, polymorphism, class attributes
-  - Standard Library: modules, exceptions, file handling, datetime, JSON
-  - Types, Variables, and Conditionals: types, variables, conditionals
-
 - Advanced Guide: https://wolfcodes.dev/docs/coding/python/advanced_guide
-  - How Python Works: code processing, names/binding/scope, mutability, call stack and execution
-  - Advanced Functions: first-class functions, decorators, lambdas
-  - Iteration and Generators: iteration protocol, generators, context managers
-  - Object Model & OOP: object model, method resolution order, descriptors
-  - Types and Annotations: type hints, typing module deep dive
-  - Concurrency: GIL explained, async under the hood
-  - Exceptions and Control Flow: exceptions as control flow
-  - Metaprogramming: metaprogramming concepts and practices
 
-#### JavaScript Documentation
+Topics include:
+- Core language concepts and built-ins
+- Object-oriented programming
+- Iteration, generators, and context managers
+- Type hints and annotations
+- Concurrency and async
+- Exceptions and control flow
+- Metaprogramming and internals
+
+#### JavaScript
 - Language Reference: https://wolfcodes.dev/docs/coding/javascript/language_reference
-  - Comprehensive reference for JavaScript built-in types, functions, and keywords
-  - Includes: Number, String, Boolean, Object, Array, null, undefined, Symbol, BigInt, Function, Date, RegExp, Map, Set, WeakMap, WeakSet, Promise, Class, async/await, generators
+
+Topics include:
+- Core types and objects
+- Promises and async/await
+- Iterators and generators
+- Modern JavaScript APIs
 
 ### Blog
-Technical blog posts covering various programming topics, including:
-- React and web development
-- JavaScript concepts (Promises, async/await, URL API, Temporal)
-- Encryption and security
-- System administration (Linux, Samba)
-- And more
+Technical articles covering:
+- Python and JavaScript internals
+- Web development and React
+- Encryption and security concepts
+- Linux and system administration
 
-## Sitemap
-Full sitemap available at: https://wolfcodes.dev/sitemap.xml
+## Source Indexing
+A full sitemap is available at:
+https://wolfcodes.dev/sitemap.xml
 
-## Contact
-- Website: https://wolfcodes.dev/contact
+## External Profiles
 - GitHub: https://github.com/wolf-math
-- LinkedIn: https://www.linkedin.com/in/wolf-math
 - Dev.to: https://dev.to/wolfmath
+- LinkedIn: https://www.linkedin.com/in/wolf-math
 
-## GitHub
-- GitHub Profile: https://github.com/wolf-math
-- Most projects, code examples, and educational resources are available on GitHub
-
-## Content License
-Content is provided for educational and reference purposes. 
-Any LLM is free to use this content, but attribution is required.
-
-## Technical Details
+## Technical Notes
 - Built with Docusaurus
-- Supports mathematical notation (KaTeX)
-- Dark mode by default
-- Responsive design
+- Supports KaTeX for mathematics
+- Responsive design with dark mode support
 
 ## Last Updated
-This file was last updated in 2026.
+2026

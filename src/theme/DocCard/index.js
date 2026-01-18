@@ -16,7 +16,8 @@ import {
   FaGithub,
   FaCompass,
   FaBook,
-  FaRocket
+  FaRocket,
+  FaTerminal
 } from 'react-icons/fa';
 // function useCategoryItemsPlural() {
 //   const {selectMessage} = usePluralForm();
@@ -53,7 +54,7 @@ function CardLayout({ className, href, icon, title, description }) {
         className={clsx('text--truncate', styles.cardTitle)}
         title={title}
       >
-        {icon} {title}
+        {icon} &nbsp; {title}
       </Heading>
       {/* {description && (
         <p
@@ -86,6 +87,8 @@ function CardCategory({ item }) {
     icon = <FaCompass />;
   } else if (item.label === 'Advanced guide') {
     icon = <FaRocket />;
+  } else if (item.label === 'Command line') {
+    icon = <FaTerminal />;
   }
 
   return (
